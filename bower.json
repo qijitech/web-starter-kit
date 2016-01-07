@@ -1,0 +1,30 @@
+{
+  "name": "web-starter-kit",
+  "authors": [
+    "Tinker Pang <kangnixi@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "metisMenu": "~2.2.0",
+    "jquery-slimscroll": "~1.3.7",
+    "PACE": "pace#~1.0.2",
+    "angular": "~1.4.8",
+    "angular-sanitize": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.14.3",
+    "ng-idle": "~1.1.1",
+    "font-awesome": "fontawesome#~4.5.0",
+    "animate.css": "~3.4.0",
+    "jquery-ui": "~1.11.4",
+    "oclazyload": "ocLazyLoad#~1.0.9",
+    "w5c-validator": "angular-w5c-validator#~2.4.6"
+  }
+}
