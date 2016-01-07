@@ -36,6 +36,7 @@ gulp 执行 gulpfile.js 文件：
 
 * 将根目录下 angular 目录的 html 复制到 public 目录下
 * 处理 css、js文件
+* browser-sync 有个本地访问路径的配置，记得更改为自己本地项目的路径
 
 详细的处理见代码，以及处理后的结果
 
@@ -52,7 +53,7 @@ gulp 执行 gulpfile.js 文件：
 如果你是自己安装的 nginx，配置文件如下：
 
 	server {
-			listen       8001;
+			listen       8000;
 			server_name  localhost;
 			root       /var/www/core/public/;
 			
